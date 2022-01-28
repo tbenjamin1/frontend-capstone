@@ -3,6 +3,7 @@
 // api url
 const api_url = 
       "https://jsonplaceholder.typicode.com/posts/";
+      //https://mycaps.herokuapp.com/api/blogs/get-blog
   
 // Defining async function
 async function getapi(url) {
@@ -16,7 +17,7 @@ async function getapi(url) {
     if (response) {
         hideloader();
     }
-    var limit = 5;
+    var limit = 6;
     // var data = response.data.slice(0, limit);
 
     const html = data.slice(0, limit).map(user =>{
