@@ -41,18 +41,17 @@
                    
                     <div class="input-field">
                         <label>Authour:</label>
-                        <input type="text" id="name" required>
+                        <input type="text" id="Authour" required>
                         
                     </div>
                     <div class="input-field">
-                        <label>Date </label>
-                        <input type="date" id="date" required>
-                       
+                        <label>summary </label>
+                        <textarea class="textarea" type="text" id="summary" placeholder="summary article" required></textarea>
                     </div>
                 </div>
 
                 <div class="input-field">
-                    <textarea class="textarea" type="text" id="textarea" placeholder="write article" required></textarea>
+                    <textarea class="textarea" type="text" id="body" placeholder="write article" required></textarea>
                     <!-- <span class="show">SHOW</span> -->
                     
                 </div>
@@ -69,7 +68,7 @@
                
                 <div class="">
 
-                    <button type="submit" value="submit">post</button>
+                    <button type="submit" value="submit" onclick='editarticle(event)'>post</button>
                 </div>
 
             </form>

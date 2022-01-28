@@ -161,6 +161,7 @@ p {
   flex-direction: column;
   width: 100%;
   background-color: white;
+
 }
 
 .bashboard {
@@ -169,6 +170,8 @@ p {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+
+  box-shadow: 1px 1px 1px 1px rgba(12, 12, 12, 0.15);
 }
 .bashboard-sumary {
   width: 100%;
@@ -238,12 +241,12 @@ p {
 /* card */
 
 .card {
-  height: 5rem;
+  height: 7rem;
   display: flex;
   flex-direction: column;
   border-radius: 10px;
   padding: 10px;
-  box-shadow: 0px 8px 20px 0px rgba(12, 12, 12, 0.15);
+   box-shadow: 2px 2px 2px 2px rgba(12, 12, 12, 0.15);
 }
 .card-summary {
   height: 5rem;
@@ -252,7 +255,7 @@ p {
   flex-direction: column;
   border-radius: 50%;
   padding: 30px;
-  box-shadow: 0px 8px 20px 0px rgba(12, 12, 12, 0.15);
+   box-shadow: 2px 2px 2px 2px rgba(12, 12, 12, 0.15);
 
   justify-content: center;
   align-items: center;
